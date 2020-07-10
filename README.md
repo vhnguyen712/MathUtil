@@ -10,5 +10,6 @@ This repo contains the source code of a simple JAVA application used to demonstr
 ## Connect me via
 1. [GitHub](http://github.com)
 2. [Facebook](http://facebook.com/)
+3. [Email](mail: ng.hoang.long10320@gmail.com)
 
-### © 2020 by NHLong
+### © 2020 by NHLong | FPT University
