@@ -50,6 +50,7 @@ public class MathUtilTest {
         //ta phải dung chiêu khác khi bắt ngoại lệ coi có đúng là ngoại lệ mình
         //cần không?
         computeFactorial(-5);
+        computeFactorial(16); //vì giai thừa tăng rất nhanh nên không chơi quá 16
     }
     //code có thể còn tiềm ẩn lỗi nhưng Clean & Build 
     //luôn ra file .jar nếu code không sai cú pháp
