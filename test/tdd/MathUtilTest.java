@@ -49,7 +49,7 @@ public class MathUtilTest {
         //trong khi đó ném ra ngoại lệ không phải là actual value để so sánh
         //ta phải dung chiêu khác khi bắt ngoại lệ coi có đúng là ngoại lệ mình
         //cần không?
-        computeFactorial(-5);
+        //computeFactorial(-5);
         computeFactorial(16); //vì giai thừa tăng rất nhanh nên không chơi quá 16
     }
     //code có thể còn tiềm ẩn lỗi nhưng Clean & Build 
