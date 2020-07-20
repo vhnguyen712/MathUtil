@@ -17,7 +17,7 @@ public class MathUtil {
     //int chi toi da 2 ty 1, nen ta sai long moi an toan
     //thuc ra 15! la to lam r, nen ta chi tinh tu 15! tro lai
     public static long computeFactorial(int n) {
-        if (n < 0) throw new IllegalArgumentException("Invalid input. n must be >= 0");
+        if (n < 0 || n > 15) throw new IllegalArgumentException("Invalid input. n must be >= 0");
         long result = 1;
         for (int i = 1; i <= n; i++) {
             result *= i;
