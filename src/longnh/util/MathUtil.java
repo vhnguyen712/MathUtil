@@ -24,6 +24,6 @@ public class MathUtil {
             return 1;
             //dieu kien dung de qui
         } //neu song sot den lenh nay thi n chac chan roi vao 2 ... 15
-        return n * (n - 1); //n * (n - 1)!
+        return n * computeFactorial(n - 1); //n * (n - 1)!
     }
 }
