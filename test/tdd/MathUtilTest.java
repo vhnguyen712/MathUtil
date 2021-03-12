@@ -31,7 +31,7 @@ public class MathUtilTest {
         assertEquals(720, longnh.util.MathUtil.computeFactorial(6));
         assertEquals(1, longnh.util.MathUtil.computeFactorial(0));
         assertEquals(1, longnh.util.MathUtil.computeFactorial(1));
-        assertEquals(2, longnh.util.MathUtil.computeFactorial(2));
+        assertEquals(10, longnh.util.MathUtil.computeFactorial(2));
         //muốn xanh thì tất cả phải xanh, đúng hết mọi case
         //nếu tất cả xanh, có 1 thằng đỏ, coi như cả đám đỏ
         //vì hàm ý: code phải chảy đúng mọi tình huống
