@@ -5,6 +5,7 @@
  */
 package mathutil;
 
+import java.text.ParseException;
 import static longnh.util.MathUtil.computeFactorial;
 
 /**
@@ -13,7 +14,7 @@ import static longnh.util.MathUtil.computeFactorial;
  */
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
         //hy vọng hàm trả về 120 nếu tính 5!
         //hy vọng hàm trả về 1 nếu tính 1!
         System.out.println("5! = " + computeFactorial(5));
@@ -23,5 +24,19 @@ public class Main {
         System.out.println("0! = " + computeFactorial(0));
         //expected Exception ìf cF(-5)
         System.out.println("-5! = " + computeFactorial(-5));
+//        Scanner giris = new Scanner(System.in);        
+//        System.out.println("Month:");
+//        int d = giris.nextInt();
+//        System.out.println("Day:");
+//        int m = giris.nextInt();
+//        System.out.println("Year:");
+//        int y = giris.nextInt();
+//        String tarih;
+//        tarih = Integer.toString(d) + "/" + Integer.toString(m) + "/" + Integer.toString(y);  
+//        System.out.println("Tarih : " + tarih); 
+//        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+//        Date girilentarih = null;
+//        girilentarih = dateFormat.parse(tarih);
+//        System.out.println(dateFormat.format(girilentarih));      
     }
 }
