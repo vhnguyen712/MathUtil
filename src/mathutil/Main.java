@@ -6,7 +6,7 @@
 package mathutil;
 
 import java.text.ParseException;
-import static longnh.util.MathUtil.computeFactorial;
+import longnh.util.MathUtil.computeFactorial;
 
 /**
  *
